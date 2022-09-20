@@ -11,7 +11,7 @@ import SwiftUI
 struct TryMeAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(currentValue: .constant(11), thumbColor: .constant(.red))
         }
     }
 }
